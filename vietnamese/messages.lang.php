@@ -1,19 +1,21 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
- *
+ * MyBB 1.6 English Language Pack
+ * Copyright 2010 MyBB Group, All Rights Reserved
+ * 
+ * $Id: messages.lang.php 5488 2011-07-12 13:23:02Z Tomm $
  */
 
-$l['click_no_wait'] = "Click here if you don't want to wait any longer.";
+$l['click_no_wait'] = "Bấm vào đây nếu bạn không muốn đợi lâu.";
 $l['redirect_return_forum'] = "<br /><br />Alternatively, <a href=\"{1}\">return to the forum</a>.";
 $l['redirect_emailsent'] = "Your e-mail message has been sent successfully.";
-$l['redirect_loggedin'] = "You have successfully been logged in.<br />You will now be taken back to where you came from.";
+$l['redirect_loggedin'] = "Bạn đã đăng nhập thành công.<br />Bạn sẽ trở lại diễn đàn trong giây lát...";
 
-$l['error_invalidpworusername'] = "You have entered an invalid username/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
+
+$l['error_invalidpworusername'] = "Bạn đã nhập sai tên đăng nhập hoặc mật khẩu. <br /><br />Nếu bạn quên mật khẩu, xin vui lòng <a href=\"member.php?action=lostpw\">lấy mật khẩu mới</a>.";
 $l['error_invalidpworusername1'] = "You have entered an invalid email/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
 $l['error_invalidpworusername2'] = "You have entered an invalid username/password or email/password combination. <br /><br />If you have forgotten your password please <a href=\"member.php?action=lostpw\">retrieve a new one</a>.";
-$l['error_incompletefields'] = "It appears you have left one or more required fields blank. Please go back and enter the required fields.";
+$l['error_incompletefields'] = "It appears you have left one or more required fields blank. Please go back and enter the required fields."; 
 $l['error_alreadyuploaded'] = "This post already contains an attachment with the same name. Please rename the file and upload it again. Alternatively you may click \"Update Attachment\".";
 $l['error_alreadyuploaded_perm'] = "This post already contains an attachment with the same name. Please either remove the existing file or rename the file and upload it again.";
 $l['error_nomessage'] = "Sorry, we cannot proceed because you did not enter a valid message. Please go back and do so.";
@@ -25,11 +27,10 @@ $l['error_invalidthread'] = "The specified thread does not exist.";
 $l['error_invalidpost'] = "The specified post does not exist.";
 $l['error_invalidannouncement'] = "The specified announcement does not exist.";
 $l['error_invalidattachment'] = "The specified attachment does not exist.";
-$l['error_invalidforum'] = "Invalid forum";
+$l['error_invalidforum'] = "Diễn đàn không hợp lệ";
 $l['error_closedinvalidforum'] = "You may not post in this forum because either the forum is closed, it is a redirect to another webpage, or it is a category.";
 $l['error_attachtype'] = "The type of file that you attached is not allowed. Please remove the attachment or choose a different type.";
 $l['error_attachsize'] = "The file you attached is too large. The maximum size for that type of file is {1} kilobytes.";
-$l['error_uploadempty'] = "The file specified is empty.";
 $l['error_uploadsize'] = "The size of the uploaded file is too large.";
 $l['error_uploadfailed'] = "The file upload failed. Please choose a valid file and try again. ";
 $l['error_uploadfailed_detail'] = "Error details: ";
@@ -45,19 +46,19 @@ $l['error_uploadfailed_movefailed'] = "There was a problem moving the uploaded f
 $l['error_uploadfailed_lost'] = "The attachment could not be found on the server.";
 $l['error_emailmismatch'] = "The email addresses you entered do not match. Please go back and try again";
 $l['error_nopassword'] = "You did not enter a valid password.";
-$l['error_usernametaken'] = "The username you have chosen is already registered. If you have previously registered on these forums, please <a href=\"member.php?action=login\">login</a>.";
+$l['error_usernametaken'] = "The username you have chosen is already registered.";
 $l['error_nousername'] = "You did not enter a username.";
 $l['error_invalidusername'] = "The username you have entered appears to be invalid.";
 $l['error_invalidpassword'] = "The password you entered is incorrect. If you have forgotten your password, click <a href=\"member.php?action=lostpw\">here</a>. Otherwise, go back and try again.";
 $l['error_postflooding'] = "We are sorry but we cannot process your post. The administrator has specified you are only allowed to post once every {1} seconds.";
-$l['error_nopermission_guest_1'] = "You are either not logged in or do not have permission to view this page. This could be because one of the following reasons:";
-$l['error_nopermission_guest_2'] = "You are not logged in or registered. Please use the form at the bottom of this page to login.";
-$l['error_nopermission_guest_3'] = "You do not have permission to access this page. Are you trying to access administrative pages or a resource that you shouldn't be?  Check in the forum rules that you are allowed to perform this action.";
-$l['error_nopermission_guest_4'] = "Your account may have been disabled by an administrator, or it may be awaiting account activation.";
-$l['error_nopermission_guest_5'] = "You have accessed this page directly rather than using appropriate forms or links.";
-$l['login'] = "Login";
-$l['need_reg'] = "Need to register?";
-$l['forgot_password'] = "Forgotten your password?";
+$l['error_nopermission_guest_1'] = "Bạn chưa đăng nhập hoặc không có quyền xem trang này. Bạn vui lòng kiểm tra các nguyên nhân sau:";
+$l['error_nopermission_guest_2'] = "Bạn chưa đăng nhập hoặc đăng ký. Xin vui lòng đăng nhập hoặc đăng ký ở trên.";
+$l['error_nopermission_guest_3'] = "Bạn không có quyền truy cập trang này. Có phải bạn đang cố truy cập trang quản lý hoặc các tài nguyên không được phép?  Xin vui lòng xem lại nội quy để biết quyền hạn của bạn.";
+$l['error_nopermission_guest_4'] = "Tài khoản của bạn có thể bị khóa bởi người quản trị, hoặc bạn chưa kích hoạt tài khoản.";
+$l['error_nopermission_guest_5'] = "Bạn truy cập trực tiếp vào trang này mà không qua các mẫu hợp lệ hoặc các liên kết.";
+$l['login'] = "Đăng nhập";
+$l['need_reg'] = "Bạn muốn đăng ký?";
+$l['forgot_password'] = "Bạn đã quên mật khẩu?";
 $l['error_nopermission_user_1'] = "You do not have permission to access this page. This could be because of one of the following reasons:";
 $l['error_nopermission_user_ajax'] = "You do not have permission to access this page.";
 $l['error_nopermission_user_2'] = "Your account has either been suspended or you have been banned from accessing this resource.";
@@ -67,35 +68,31 @@ $l['error_nopermission_user_5'] = "You have accessed this page directly rather t
 $l['error_nopermission_user_resendactivation'] = "Resend Activation Code";
 $l['error_nopermission_user_username'] = "You are currently logged in with the username: '{1}'";
 $l['logged_in_user'] = "Logged In User";
-$l['error_too_many_images'] = "Too Many Images.";
+$l['error_too_many_images'] = "Quá nhiều hình ảnh.";
 $l['error_too_many_images2'] = "We are sorry, but we cannot process your post because it contains too many images. Please remove some images from your post to continue.";
 $l['error_too_many_images3'] = "<b>Note:</b> The maximum amount of images per post is";
 $l['error_attach_file'] = "Error Attaching File";
-$l['please_correct_errors'] = "Please correct the following errors before continuing:";
-$l['error_reachedattachquota'] = "Sorry, but you cannot attach this file because you have reached your attachment quota of {1}";
-$l['error_maxattachpost'] = "Sorry but you cannot attach this file because you have reached the maximum number of attachments allowed per post of {1}";
+$l['please_correct_errors'] = "Bạn vui lòng khắc phục các vấn đề sau trước khi tiếp tục:";
+$l['error_reachedattachquota'] = "Sorry but you cannot attach this file because you have reached your attachment quota of {1}";
 $l['error_invaliduser'] = "The specified user is invalid or does not exist.";
 $l['error_invalidaction'] = "Invalid action";
 $l['error_messagelength'] = "Sorry, your message is too long and cannot be posted. Please try shortening your message and try again.";
 $l['error_message_too_short'] = "Sorry, your message is too short and cannot be posted.";
 $l['failed_login_wait'] = "You have failed to login within the required number of attempts. You must now wait {1}h {2}m {3}s before you can login again.";
-$l['failed_login_again'] = "<br />You have <strong>{1}</strong> more login attempts.";
+$l['failed_login_again'] = "<br />Bạn còn <strong>{1}</strong> lần để thử đăng nhập lại.";
 $l['error_max_emails_day'] = "You cannot use the 'Send Thread to a Friend' or the 'Email User' features because you've already used up your allocated quota of sending {1} messages in the past 24 hours.";
-$l['attachments_disabled'] = "You cannot use the attachment system as it has been disabled by the Administrator.";
-
+		
 $l['emailsubject_lostpw'] = "Password Reset at {1}";
 $l['emailsubject_passwordreset'] = "New password at {1}";
 $l['emailsubject_subscription'] = "New Reply to {1}";
 $l['emailsubject_randompassword'] = "Your Password for {1}";
-$l['emailsubject_activateaccount'] = "Account Activation at {1}";
+$l['emailsubject_activateaccount'] = "Kích hoạt tài khoản tại {1}";
 $l['emailsubject_forumsubscription'] = "New Thread in {1}";
 $l['emailsubject_reportpost'] = "Reported post at {1}";
 $l['emailsubject_reachedpmquota'] = "Private Messaging Quota Reached at {1}";
 $l['emailsubject_changeemail'] = "Change of Email at {1}";
-$l['emailsubject_newpm'] = "New Private Message at {1} - {2}";
-$l['emailsubject_newjoinrequest'] = "New Join Request at {1}";
-$l['emailsubject_sendtofriend'] = "Interesting discussion at {1}";
-$l['emailsubject_changepassword'] = "Change of Password at {1}";
+$l['emailsubject_newpm'] = "New Private Message at {1}";
+$l['emailsubject_sendtofriend'] = "Interesting Web Page at {1}";
 $l['emailbit_viewthread'] = "... (visit the thread to read more..)";
 
 $l['email_lostpw'] = "{1},
@@ -146,8 +143,6 @@ Activation Code: {5}
 
 Thank you,
 {2} Staff";
-
-
 $l['email_reportpost'] = "{1} from {2} has reported this post:
 
 {3}
@@ -206,7 +201,6 @@ It is recommended you change your password immediately after you login. You can 
 
 Thank you,
 {2} Staff";
-
 $l['email_sendtofriend'] = "Hello,
 
 {1} from {2} thought you may be interested in reading the following web page:
@@ -249,56 +243,51 @@ If you would not like to receive any more notifications of new threads in this f
 
 ------------------------------------------";
 
-$l['email_activateaccount'] = "{1},
+$l['email_activateaccount'] = "Xin chào {1},
 
-To complete the registration process on {2}, you will need to go to the URL below in your web browser.
-
+Để hoàn tất việc đăng ký tài khoản tại {2}, bạn vui lòng truy cập vào địa chỉ dưới đây.
 {3}/member.php?action=activate&uid={4}&code={5}
 
-If the above link does not work correctly, go to
-
+Nếu địa chỉ trên gặp sự cố, bạn vui lòng truy cập vào đây:
 {3}/member.php?action=activate
 
-You will need to enter the following:
-Username: {1}
-Activation Code: {5}
+Sau đó điền các thông tin sau:
+Tên đăng nhập: {1}
+Mã kích hoạt: {5}
 
-Thank you,
-{2} Staff";
+Cám ơn bạn đã tham gia diễn đàn,
+Ban quản trị {2}";
 
-$l['email_activateaccount1'] = "{1},
+$l['email_activateaccount1'] = "Xin chào {1},
 
-To complete the registration process on {2}, you will need to go to the URL below in your web browser.
-
+Để hoàn tất việc đăng ký tài khoản tại {2}, bạn vui lòng truy cập vào địa chỉ dưới đây.
 {3}/member.php?action=activate&uid={4}&code={5}
 
-If the above link does not work correctly, go to
-
+Nếu địa chỉ trên gặp sự cố, bạn vui lòng truy cập vào đây:
 {3}/member.php?action=activate
 
-You will need to enter the following:
-Your email address
-Activation Code: {5}
+Sau đó điền các thông tin sau:
+Địa chỉ email của bạn
+Mã kích hoạt: {5}
 
-Thank you,
-{2} Staff";
+Cám ơn bạn đã tham gia diễn đàn,
+Ban quản trị {2}";
 
-$l['email_activateaccount2'] = "{1},
+$l['email_activateaccount2'] = "Xin chào {1},
 
-To complete the registration process on {2}, you will need to go to the URL below in your web browser.
-
+Để hoàn tất việc đăng ký tài khoản tại {2}, bạn vui lòng truy cập vào địa chỉ dưới đây.
 {3}/member.php?action=activate&uid={4}&code={5}
 
-If the above link does not work correctly, go to
-
+Nếu địa chỉ trên gặp sự cố, bạn vui lòng truy cập vào đây:
 {3}/member.php?action=activate
 
-You will need to enter the following:
-Username: {1} (Or your email address)
-Activation Code: {5}
+Sau đó điền các thông tin sau:
+Tên đăng nhập: {1}
+Mã kích hoạt: {5}
 
-Thank you,
-{2} Staff";
+Cám ơn bạn đã tham gia diễn đàn,
+Ban quản trị {2}";
+
 
 $l['email_subscription'] = "{1},
 
@@ -360,41 +349,9 @@ Thank you,
 {2} Staff
 {5}";
 
-$l['email_changeemail_noactivation'] = "{1},
-
-We have received a request on {2} to change your email address (see details below).
-
-Old Email Address: {3}
-New Email Address: {4}
-
-This change has been automatically processed. If you did not request this change, please get it touch with an Administrator.
-
-Thank you,
-{2} Staff
-{5}";
-
-$l['email_changepassword'] = "{1},
-
-You are receiving this email because you, or someone with access to your password, recently changed your account password.
-
-Username: {1}
-Email address: {2}
-
-If you did not request this change, please get in touch with an Administrator.
-
-Thank you,
-{3} Staff
-{4}";
-
 $l['email_newpm'] = "{1},
-
-You have received a new private message on {3} from {2}:
-
-------------------------------------------
-{5}
-------------------------------------------
-
-To view, reply or forward this message, you can follow this link:
+		
+You have received a new private message on {3} from {2}. To view this message, you can follow this link:
 
 {4}/private.php
 
@@ -426,46 +383,4 @@ If you don't want other members to be able to email you please visit your User C
 {4}/usercp.php?action=options
 
 ------------------------------------------";
-
-$l['email_groupleader_joinrequest'] = "{1},
-
-{2} has requested to join {3} on {4} (see below).
-
-Reason: {5}
-
-To accept or decline this request, go to
-
-{6}/managegroup.php?gid={7}
-
-Thank you,
-{4} Staff";
-
-$l['email_contact_subject'] = "Contact: {1}";
-$l['email_contact'] = "E-mail: {1}
-Forum profile: {2}
-IP Address: {3}
-Message:
-{4}";
-
-$l['pmsubject_subscription'] = "New Reply to {1}";
-$l['pm_subscription'] = "{1},
-
-{2} has just replied to a thread which you have subscribed to. This thread is titled {3}.
-
-Here is an excerpt of the message:
-------------------------------------------
-{4}
-------------------------------------------
-
-To view the thread, you can go to the following URL:
-[url]{5}/{6}[/url]
-
-There may also be other replies to this thread but you will not receive anymore notifications until you visit the thread again.
-
-------------------------------------------
-Unsubscription Information:
-
-If you would not like to receive any more notifications of replies to this thread, visit the following URL in your browser:
-[url]{5}/usercp2.php?action=removesubscription&tid={7}&key={8}&my_post_key={9}[/url]
-
-------------------------------------------";
+?>

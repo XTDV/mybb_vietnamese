@@ -1,39 +1,40 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
+ * MyBB 1.6 English Language Pack
+ * Copyright 2010 MyBB Group, All Rights Reserved
  *
+ * $Id: calendar.lang.php 5297 2010-12-28 22:01:14Z Tomm $
  */
 
-$l['nav_calendar'] = "Calendar";
-$l['nav_viewevent'] = "View Event";
-$l['nav_dayview'] = "Day View";
-$l['nav_addevent'] = "Add Event";
-$l['nav_editevent'] = "Edit Event";
-$l['nav_move_event'] = "Move Event";
+$l['nav_calendar'] = "Lịch";
+$l['nav_viewevent'] = "Xem sự kiện";
+$l['nav_dayview'] = "Xem theo ngày";
+$l['nav_addevent'] = "Thêm sự kiện";
+$l['nav_editevent'] = "Sửa sự kiện";
+$l['nav_move_event'] = "Di chuyển sự kiện";
 
 $l['calendar_disabled'] = "You cannot use the calendar functionality as it has been disabled by the Administrator.";
 
 // In some languages these months need to be slightly different than those defined in global.lang.php
-$l['alt_month_1'] = "January";
-$l['alt_month_2'] = "February";
-$l['alt_month_3'] = "March";
-$l['alt_month_4'] = "April";
-$l['alt_month_5'] = "May";
-$l['alt_month_6'] = "June";
-$l['alt_month_7'] = "July";
-$l['alt_month_8'] = "August";
-$l['alt_month_9'] = "September";
-$l['alt_month_10'] = "October";
-$l['alt_month_11'] = "November";
-$l['alt_month_12'] = "December";
+$l['alt_month_1'] = "Tháng Giêng";
+$l['alt_month_2'] = "Tháng Hai";
+$l['alt_month_3'] = "Tháng Ba";
+$l['alt_month_4'] = "Tháng Tư";
+$l['alt_month_5'] = "Tháng Năm";
+$l['alt_month_6'] = "Tháng Sáu";
+$l['alt_month_7'] = "Tháng Bảy";
+$l['alt_month_8'] = "Tháng Tám";
+$l['alt_month_9'] = "Tháng Chín";
+$l['alt_month_10'] = "Tháng Mười";
+$l['alt_month_11'] = "Tháng Mười Một";
+$l['alt_month_12'] = "Tháng Chạp";
 
 $l['add_private_event'] = "Add Private Event";
 $l['add_public_event'] = "Add Public Event";
 
-$l['calendar'] = "Calendar";
+$l['calendar'] = "Lịch";
 
-$l['jump_month'] ="Jump to month:";
+$l['jump_month'] ="Chuyển tới:";
 
 $l['birthdays_on_day'] = "Birthdays on {1}";
 $l['birthdayhidden'] = "Hidden";
@@ -52,8 +53,8 @@ $l['private_option'] = "<b>Private</b> Only you will be able to view this event.
 $l['delete_option'] = "<b>Delete:</b> Delete this event.";
 $l['post_event'] = "Post Event";
 $l['day_view'] = "Day View";
-$l['birthday'] = "Birthday";
-$l['birthdays'] = "Birthdays";
+$l['birthday'] = "Sinh nhật";
+$l['birthdays'] = "Sinh nhật";
 $l['event_author'] = "Event Author:";
 $l['edit_event'] = "Edit Event";
 $l['view_event'] = "View Event";
@@ -109,6 +110,7 @@ $l['day_or_days'] = "day(s)";
 $l['week_or_weeks_on'] = "week(s) on";
 $l['repeats_monthly'] = "Monthly";
 $l['repeats_yearly'] = "Yearly";
+$l['repeats_every'] = "Repeats every";
 $l['repeats_on_day'] = "Repeats on day";
 $l['of_every'] = "of every";
 $l['month_or_months'] = "month(s)";
@@ -140,4 +142,4 @@ $l['redirect_eventadded'] = "Your event has been added successfully.<br />You wi
 $l['redirect_eventadded_moderation'] = "Your event has been added successfully but requires moderation by a forum moderator before it is visible.<br />You will now be taken back to the calendar.";
 $l['redirect_eventunapproved'] = "The event has been unapproved successfully.<br />You will now be taken to it.";
 $l['redirect_eventapproved'] = "The event has been approved successfully.<br />You will now be taken to it.";
-$l['redirect_eventmoved'] = "The event has been moved successfully.<br />You will now be taken to it.";
+?>

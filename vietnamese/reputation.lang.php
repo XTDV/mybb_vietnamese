@@ -1,8 +1,9 @@
 <?php
 /**
- * MyBB 1.8 English Language Pack
- * Copyright 2014 MyBB Group, All Rights Reserved
+ * MyBB 1.6 English Language Pack
+ * Copyright 2010 MyBB Group, All Rights Reserved
  *
+ * $Id: reputation.lang.php 5593 2011-09-14 10:28:41Z Tomm $
  */
 
 $l['nav_reputation'] = "Reputation Report";
@@ -37,9 +38,9 @@ $l['negative_count'] = "Negatives";
 $l['last_week'] = "Last week";
 $l['last_month'] = "Last month";
 $l['last_6months'] = "Last 6 months";
-$l['all_time'] = "All Time";
 $l['comments'] = "Comments";
 $l['close_window'] = "Close Window";
+$l['go_back'] = "Back";
 $l['add_reputation_vote'] = "Add a reputation rating for {1}";
 $l['add_reputation_to_post'] = "This reputation is for {1}'s post.<br />";
 $l['neg_rep_disabled'] = "<span class=\"smalltext\">* - <em>Negative reputation is currently disabled</em></span>";
@@ -60,8 +61,7 @@ $l['neutral'] = "Neutral";
 $l['user_comments'] = "Your comments on {1}:";
 $l['add_vote'] = "Add Rating";
 $l['update_vote'] = "Update Rating";
-$l['delete_vote'] = "Delete";
-$l['report_vote'] = "Report";
+$l['delete_vote'] = "Delete Rating";
 $l['power_positive'] = "Positive ({1})";
 $l['power_neutral'] = "Neutral";
 $l['power_negative'] = "Negative ({1})";
@@ -71,11 +71,12 @@ $l['show_neutral'] = "Show: Neutral Ratings";
 $l['show_negative'] = "Show: Negative Ratings";
 $l['sort_updated'] = "Sort by: Last Updated";
 $l['sort_username'] = "Sort by: Username";
-$l['last_updated'] = "Last updated {1}";
-$l['postrep_given'] = "Rating given for <a href=\"{1}\">{2}'s post</a> {3}<br />";
-$l['postrep_given_thread'] = "in <a href=\"{1}\">{2}</a>";
+$l['last_updated'] = "Last updated {1}, {2}";
+$l['postrep_post'] = "Post #";
+$l['postrep_given'] = "Rating given for {1}<br />";
 $l['no_reputation_votes'] = "This user currently does not have any reputation ratings with the specified criteria below.";
 $l['delete_reputation_confirm'] = "Are you sure you wish to delete this reputation Rating?";
-$l['delete_reputation_log'] = "Deleted reputation rating by {1} (UID: {2})";
+$l['delete_reputation_log'] = "Removed Reputation by {1}";
 $l['reputations_disabled_group'] = "The reputation system is disabled for users of this user group.";
-$l['rate_user'] = "Rate User";
+$l['rate_user'] = "Rate user";
+?>
