@@ -1,9 +1,8 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
+ * MyBB 1.8 English Language Pack
+ * Copyright 2014 MyBB Group, All Rights Reserved
  *
- * $Id: datahandler_pm.lang.php 5297 2010-12-28 22:01:14Z Tomm $
  */
 
 $l['pmdata_too_long_subject'] = 'The subject of your private message is too long. Please enter a shorter subject.';
@@ -20,4 +19,3 @@ $l['pmdata_recipient_reached_quota'] = '{1} has reached their private message qu
 
 $l['pmdata_pm_flooding'] = 'You are trying to send a message too quickly after sending a previous message. Please wait {1} more seconds.';
 $l['pmdata_pm_flooding_one_second'] = 'You are trying to send a message too quickly after sending a previous message. Please wait 1 more second.';
-?>
